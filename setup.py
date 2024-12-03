@@ -12,17 +12,17 @@ SRC_REPO = "CNNClassifier"
 AUTHOR_EMAIL = "jagannathsai771@gmail.com"
 
 setuptools.setup(
-    nam=SRC_REPO,
+    name=SRC_REPO,
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
     description="A small python package for CNN app",
-    Long_description=long_description,
-    Long_description_content="text/markdown",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
     project_urls={
         "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
     },
-    package_data={"":"src"},
+    package_dir={"":"src"},
     packages=setuptools.find_packages(where="src")
 )
