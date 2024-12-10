@@ -20,7 +20,7 @@ prepare_base_model:
 prepare_callbacks:
   root_dir: artifacts/prepare_callbacks
   tensorboard_root_log_dir: artifacts/prepare_callbacks/tensorboard_log_dir
-  checkpoint_model_filepath: artifacts/prepare_callbacks/checkpoint_dir/model.h5
+  checkpoint_model_filepath: artifacts/prepare_callbacks/checkpoint_dir/model.keras
 
 
 
